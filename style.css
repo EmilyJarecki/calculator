@@ -1,3 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.calc-body{
+    width: 300px;
+    background-color: rgb(91, 108, 239);
+}
+.inputDiv{
+    display: flex;
+    justify-content: center;
+}
 .info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -19,10 +31,10 @@
   grid-template-rows: 1fr;
   grid-column-gap: 5px;
   grid-row-gap: 0px;
-  border: 5px solid black;
+  border: 1px solid rgb(20, 2, 2);
 }
 .box1, .box2, .box3, .box4 {
-    border: 5px solid rgb(37, 67, 37);
+    border: 5px solid rgb(35, 43, 35);
 }
 .box1 {
   grid-area: 1 / 1 / 2 / 2;
@@ -41,8 +53,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
 }
 
 .div1 {
@@ -104,7 +116,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr) 2fr;
   grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-row-gap: 10px;
 }
 
 .div19 {
@@ -121,4 +133,9 @@
 }
 .div23 {
   grid-area: 5 / 1 / 6 / 2;
+}
+.buttonsDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }

@@ -9,44 +9,48 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+	<div class="calc-body">
+		<div>
     <input type="text" id="display" />
-	<div class="info">
-		<p class="info1">TEXAS INSTRUMENTS</p>
-		<p class="info2">TI-108</p>
-		<div class="info3">
-
-			<p class="box1">B</p>
-			<p class="box2">B</p>
-			<p class="box3">B</p>
-			<p class="box4">B</p>
-			</div>
-	</div>
-    <div class="parent" id="equation">
-      <button class="div1">+/-</button>
-      <button class="div2">√</button>
-      <button class="div3">%</button>
-      <button class="div4">MRC</button>
-      <button class="div5">M-</button>
-      <button class="div6">M+</button>
-      <button class="div7" onclick="addToDisplay('7')">7</button>
-      <button class="div8" onclick="addToDisplay('8')">8</button>
-      <button class="div9" onclick="addToDisplay('9')">9</button>
-      <button class="div10" onclick="addToDisplay('4')">4</button>
-      <button class="div11" onclick="addToDisplay('5')">5</button>
-      <button class="div12" onclick="addToDisplay('6')">6</button>
-      <button class="div13" onclick="addToDisplay('1')">1</button>
-      <button class="div14" onclick="addToDisplay('2')">2</button>
-      <button class="div15" onclick="addToDisplay('3')">3</button>
-      <button class="div16" onclick="clearDisplay()">ON/C</button>
-      <button class="div17" onclick="addToDisplay('0')">0</button>
-      <button class="div18" onclick="addToDisplay('.')">.</button>
+    <div class="info">
+      <p class="info1">TEXAS INSTRUMENTS</p>
+      <p class="info2">TI-108</p>
+      <div class="info3">
+        <p class="box1">B</p>
+        <p class="box2">B</p>
+        <p class="box3">B</p>
+        <p class="box4">B</p>
+      </div>
     </div>
-    <div class="parent2">
-      <button class="div19" onclick="addToDisplay('/')">/</button>
-      <button class="div20" onclick="addToDisplay('*')">*</button>
-      <button class="div21" onclick="addToDisplay('-')">-</button>
-      <button class="div22" onclick="addToDisplay('+')">+</button>
-      <button class="div23" onclick="calculate()">=</button>
+    <div class="buttonsDiv">
+      <div class="parent" id="equation">
+        <button class="div1">+/-</button>
+        <button class="div2">√</button>
+        <button class="div3">%</button>
+        <button class="div4">MRC</button>
+        <button class="div5">M-</button>
+        <button class="div6">M+</button>
+        <button class="div7" onclick="addToDisplay('7')">7</button>
+        <button class="div8" onclick="addToDisplay('8')">8</button>
+        <button class="div9" onclick="addToDisplay('9')">9</button>
+        <button class="div10" onclick="addToDisplay('4')">4</button>
+        <button class="div11" onclick="addToDisplay('5')">5</button>
+        <button class="div12" onclick="addToDisplay('6')">6</button>
+        <button class="div13" onclick="addToDisplay('1')">1</button>
+        <button class="div14" onclick="addToDisplay('2')">2</button>
+        <button class="div15" onclick="addToDisplay('3')">3</button>
+        <button class="div16" onclick="clearDisplay()">ON/C</button>
+        <button class="div17" onclick="addToDisplay('0')">0</button>
+        <button class="div18" onclick="addToDisplay('.')">.</button>
+      </div>
+      <div class="parent2">
+        <button class="div19" onclick="addToDisplay('/')">/</button>
+        <button class="div20" onclick="addToDisplay('*')">*</button>
+        <button class="div21" onclick="addToDisplay('-')">-</button>
+        <button class="div22" onclick="addToDisplay('+')">+</button>
+        <button class="div23" onclick="calculate()">=</button>
+      </div>
     </div>
+</div>
   </body>
 </html>
