@@ -1,37 +1,60 @@
-body{
-    display: flex;
-    justify-content: center;
+/* colors
+light grey: rgb(211,215,222)
+main blue: rgba(2,96,158,255)
+red: rgb(200,34,57)
+black: rgb(31,29,33)
+elephant grey: rgb(106,122,136)
+navy: rgb(17,57,85)
+purple: rgb(129,157,205)
+dark navy: rgb(11,35,70)
+light blue: rgb(127,173,203) */
+
+body {
+  display: flex;
+  justify-content: center;
 }
-.input{
-    display: flex;
-    justify-content: center;
+.input {
+  display: flex;
+  justify-content: center;
 }
-.calc-body{
-    width: 300px;
-    background-color: rgb(91, 108, 239);
+input{
+  background-color: rgba(200,210,201,255);
 }
-.inputDiv{
-    display: flex;
-    justify-content: center;
+.TI-108, .texas{
+  color: rgb(211,215,222)
+}
+.calc-body {
+  width: 300px;
+  background-color: rgba(2, 96, 158, 255);
+}
+.inputDiv {
+  display: flex;
+  justify-content: center;
 }
 .info-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 10px; /* optional */
-  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px; /* optional */
+}
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 50px);
-    grid-template-rows: repeat(6, 50px);
-    grid-gap: 10px;
-  }
-  .grid-item {
-    background-color: #ddd;
-    padding: 10px;
-  }
-  .buttons{
-    display: flex;
-    justify-content: center;
-  }
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: repeat(6, 50px);
+  grid-gap: 10px;
+}
+.grid-item {
+  background-color: rgb(200, 34, 57);
+  padding: 10px;
+  color: rgb(211,215,222)
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.primary {
+  background-color: rgba(244,246,241,255);
+  color: rgba(56,83,122,255)
+
+}
