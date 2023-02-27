@@ -9,19 +9,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="calc-body">
-      <div class="input">
-        <input type="text" id="display" />
-      </div>
+      <div class="calc-body">
+        <div class="input-background">
+          <div class="input">
+            <input type="text" id="display" />
+          </div>
+        </div>
       <div class="info-container">
         <p class="texas">TEXAS INSTRUMENTS</p>
         <p class="TI-108">TI-108</p>
         <div class="solar-boxes">
-          <p class="box">B</p>
-          <p class="box">B</p>
-          <p class="box">B</p>
-          <p class="box">B</p>
-
+          <p class="box"></p>
+          <p class="box"></p>
+          <p class="box"></p>
+          <p class="box"></p>
         </div>
       </div>
       <div class="buttons">
@@ -35,24 +36,48 @@
           <button class="grid-item">M+</button>
           <button class="grid-item" onclick="addToDisplay('*')">*</button>
 
-          <button class="grid-item primary" onclick="addToDisplay('7')">7</button>
-          <button class="grid-item primary" onclick="addToDisplay('8')">8</button>
-          <button class="grid-item primary" onclick="addToDisplay('9')">9</button>
-          <button class="grid-item primary" onclick="addToDisplay('-')">-</button>
+          <button class="grid-item primary" onclick="addToDisplay('7')">
+            7
+          </button>
+          <button class="grid-item primary" onclick="addToDisplay('8')">
+            8
+          </button>
+          <button class="grid-item primary" onclick="addToDisplay('9')">
+            9
+          </button>
+          <button class="grid-item primary" onclick="addToDisplay('-')">
+            -
+          </button>
 
-          <button class="grid-item primary" onclick="addToDisplay('4')">4</button>
-          <button class="grid-item primary" onclick="addToDisplay('5')">5</button>
-          <button class="grid-item primary" onclick="addToDisplay('6')">6</button>
+          <button class="grid-item primary" onclick="addToDisplay('4')">
+            4
+          </button>
+          <button class="grid-item primary" onclick="addToDisplay('5')">
+            5
+          </button>
+          <button class="grid-item primary" onclick="addToDisplay('6')">
+            6
+          </button>
           <button class="grid-item" onclick="addToDisplay('+')">+</button>
 
-          <button class="grid-item primary" onclick="addToDisplay('1')">1</button>
-          <button class="grid-item primary" onclick="addToDisplay('2')">2</button>
-          <button class="grid-item primary" onclick="addToDisplay('3')">3</button>
-          <button class="grid-item" id="equals"onclick="calculate()">=</button>
+          <button class="grid-item primary" onclick="addToDisplay('1')">
+            1
+          </button>
+          <button class="grid-item primary" onclick="addToDisplay('2')">
+            2
+          </button>
+          <button class="grid-item primary" onclick="addToDisplay('3')">
+            3
+          </button>
+          <button class="grid-item" id="equals" onclick="calculate()">=</button>
 
           <button class="grid-item" onclick="clearDisplay()">ON/C</button>
-          <button class="grid-item primary" onclick="addToDisplay('0')">0</button>
-          <button class="grid-item primary" onclick="addToDisplay('.')">.</button>
+          <button class="grid-item primary" onclick="addToDisplay('0')">
+            0
+          </button>
+          <button class="grid-item primary" onclick="addToDisplay('.')">
+            .
+          </button>
         </div>
       </div>
     </div>
