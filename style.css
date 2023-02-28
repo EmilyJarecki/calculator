@@ -15,6 +15,8 @@ input{
   width: 250px;
   height: 45px;
   border-radius: 5%;
+  font-family: 'VT323', monospace;
+  font-size: 42px;
 }
 .input-background{
   background-color: rgba(72,78,61,255);
@@ -24,6 +26,13 @@ input{
   align-items: center;
   justify-content: center;
   margin: auto;
+}
+.TI-108{
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Calistoga', cursive;
+  font-size: 33px;
+  margin: 0
 }
 .TI-108, .texas{
   color: rgb(211,215,222)
@@ -51,10 +60,14 @@ input{
 .info-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 10px; 
+  grid-template-rows: repeat(2, 40px);
 }
-
+.texas{
+  width: 200px;
+  height: 50px;
+  margin: 0;
+  padding-top: 10px;
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 60px);
@@ -79,8 +92,8 @@ input{
 }
 .primary {
   background-color: rgba(244,246,241,255);
-  color: rgba(56,83,122,255)
-
+  color: rgba(56,83,122,255);
+  font-weight: 900;
 }
 #equals{
   height: 90px;
@@ -89,4 +102,5 @@ input{
   position: absolute;
   top: 4px;
   left: 6px;
+  font-family: 'Roboto', sans-serif;
 }
