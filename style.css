@@ -52,7 +52,7 @@ input{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 10px; /* optional */
+  gap: 10px; 
 }
 
 .grid-container {
@@ -69,6 +69,9 @@ input{
   padding: 10px;
   color: rgb(211,215,222);
   border-radius: 10%;
+  top: 1px;
+  position: relative;
+
 }
 .buttons {
   display: flex;
@@ -81,4 +84,9 @@ input{
 }
 #equals{
   height: 90px;
+}
+.char{
+  position: absolute;
+  top: 4px;
+  left: 6px;
 }
