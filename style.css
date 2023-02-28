@@ -2,9 +2,25 @@ body {
   display: flex;
   justify-content: center;
 }
+.edges{
+  width: 270px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-top: 5px solid rgba(21,48,76,255);
+  border-left: 2px solid rgba(21,48,76,255);
+  border-bottom: 10px solid rgba(2,104,171,255);
+}
 .centerInput{
   display: flex;
   justify-content: center;
+}
+.half{
+  border-top: 2px solid black;
+  width: 320px;
+  margin-left: -20px;
 }
 .input {
   display: flex;
@@ -14,11 +30,13 @@ input{
   background-color: rgba(200,210,201,255);
   width: 250px;
   height: 45px;
-  border-radius: 5%;
+  text-align: right;
   font-family: 'VT323', monospace;
   font-size: 42px;
-  box-shadow: inset -8px 10px 5px 0px rgba(0,0,0,0.48);
-
+  box-shadow: inset -38px 10px 25px -3px rgba(0,0,0,0.38);
+  border-radius: 10px;
+  border-right: 2px solid rgba(41,51,42,255);
+  border-bottom: 3px solid rgba(41,51,42,255);
 }
 .input-background{
   background-color: rgba(72,78,61,255);
@@ -28,6 +46,8 @@ input{
   align-items: center;
   justify-content: center;
   margin: auto;
+  border-top: 2px solid black;
+  border-left: 3px solid black;
 }
 .TI-108, .texas{
   color: rgb(211,215,222)
@@ -48,8 +68,8 @@ input{
 }
 
 .calc-body {
-  width: 300px;
-  height: 534px;
+  width: 280px;
+  height: 480px;
   background-color: rgba(2, 96, 158, 255);
   padding: 20px;
   border-radius: 30px;
@@ -89,6 +109,7 @@ input{
   padding: 5px;
   border-radius: 2%;
 }
+
 .grid-item {
   background-color: rgb(200, 34, 57);
   padding: 10px;
@@ -101,6 +122,7 @@ input{
 .buttons {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 .primary {
   background-color: rgba(244,246,241,255);

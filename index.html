@@ -13,11 +13,14 @@
       font-family: 'VT323', monospace; -->
     
       <div class="calc-body">
-        <div class="input-background">
+        <div class="edges">
+         <div class="input-background">
           <div class="input">
             <input type="text" id="display" />
           </div>
+        </div> 
         </div>
+        
       <div class="info-container">
         <p class="texas">TEXAS INSTRUMENTS</p>
         <p class="TI-108">TI-108</p>
@@ -27,6 +30,8 @@
           <p class="box"></p>
           <p class="box"></p>
         </div>
+      </div>
+      <div class="half">
       </div>
       <div class="buttons">
         <div class="grid-container">
@@ -38,13 +43,8 @@
           <button class="grid-item"><span class="char">M-</span></button>
           <button class="grid-item"><span class="char">M+</span></button>
           <button class="grid-item" onclick="addToDisplay('*')"><span class="char">*</span></button>
-
-          <button class="grid-item primary" onclick="addToDisplay('7')"><span class="char">7</span>
-            
-          </button>
-          <button class="grid-item primary" onclick="addToDisplay('8')">
-            <span class="char">8</span>
-          </button>
+          <button class="grid-item primary" onclick="addToDisplay('7')"><span class="char">7</span></button>
+          <button class="grid-item primary" onclick="addToDisplay('8')"><span class="char">8</span></button>
           <button class="grid-item primary" onclick="addToDisplay('9')">
             <span class="char">9</span>
           </button>
@@ -82,8 +82,8 @@
             <span class="char">.</span>
           </button>
         </div>
-      </div>
+
     </div>
-  
+        </div>
   </body>
 </html>
