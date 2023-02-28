@@ -17,6 +17,8 @@ input{
   border-radius: 5%;
   font-family: 'VT323', monospace;
   font-size: 42px;
+  box-shadow: inset -8px 10px 5px 0px rgba(0,0,0,0.48);
+
 }
 .input-background{
   background-color: rgba(72,78,61,255);
@@ -27,24 +29,22 @@ input{
   justify-content: center;
   margin: auto;
 }
-.TI-108{
-  display: flex;
-  justify-content: flex-end;
-  font-family: 'Calistoga', cursive;
-  font-size: 33px;
-  margin: 0
-}
 .TI-108, .texas{
   color: rgb(211,215,222)
 }
 .solar-boxes{
   display: grid;
-  grid-template-columns: repeat(4, 35px);
+  grid-template-columns: repeat(4, 30px);
+  margin-left: 15px;
+  position: absolute;
+  margin-top: 40px;
 }
 .box{
   outline: 2px solid black;
   border-top: 3px solid black;
   background-color: rgba(26,32,28,255);
+  height: 30px;
+  margin-top: -5px;
 }
 
 .calc-body {
@@ -52,6 +52,10 @@ input{
   height: 534px;
   background-color: rgba(2, 96, 158, 255);
   padding: 20px;
+  border-radius: 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: -12px 14px 8px -2px rgba(70, 116, 189, 0.5);
 }
 .inputDiv {
   display: flex;
@@ -67,6 +71,14 @@ input{
   height: 50px;
   margin: 0;
   padding-top: 10px;
+  margin-left: 15px
+}
+.TI-108{
+  position: absolute;
+  font-family: 'Calistoga', cursive;
+  font-size: 33px;
+  margin: 0 auto;
+  margin-left: 190px;
 }
 .grid-container {
   display: grid;
