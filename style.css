@@ -25,20 +25,22 @@ body {
   justify-content: center;
 }
 .half {
-  border-top: 1px solid black;
+  border-top: 1.5px solid black;
   width: 320px;
   height: 1px;
   margin-left: -20px;
-  box-shadow: 131px 30px -51px rgba(0,0,0,0.32)
+  box-shadow: 131px 30px -51px rgba(34, 68, 123, 0.5);
 }
 .below-input {
-  border-top: 2px solid rgba(34, 68, 123, 0.5);
+  border-top: 2px solid rgba(18, 38, 69, 0.5);
   width: 320px;
   margin-left: -20px;
 }
 .input {
   display: flex;
   justify-content: center;
+  box-shadow: 0px 3px 5px -3px rgba(0, 0, 0, 0.38);
+
 }
 
 input {
@@ -47,12 +49,13 @@ input {
   height: 45px;
   text-align: right;
   font-family: "VT323", monospace;
-  font-size: 42px;
+  font-size: 50px;
   box-shadow: inset -38px 10px 25px -3px rgba(0, 0, 0, 0.38), inset 0px -10px 13px -5px rgba(0, 0, 0, 0.38);
   border-radius: 10px;
   border-right: 2px solid rgba(41, 51, 42, 255);
   border-bottom: 3px solid rgba(41, 51, 42, 255);
   font-family: 'Digital';
+
 }
 .input-background {
   background-color: rgba(72, 78, 61, 255);
