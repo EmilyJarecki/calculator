@@ -7,12 +7,15 @@
     <title>Document</title>
     <script src="main.js" defer></script>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto:wght@400;900&family=VT323&display=swap" rel="stylesheet">  <body>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto:wght@400;900&family=VT323&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Jost:wght@100;200;300&display=swap" rel="stylesheet">    <body>
       <!-- font-family: 'Calistoga', cursive;
       font-family: 'Roboto', sans-serif;
       font-family: 'VT323', monospace; -->
-    
-      <div class="calc-body">
+
+      <div class="calc-body">      
+        <div class="below-input"></div>
+
         <div class="edges">
          <div class="input-background">
           <div class="input">
@@ -20,7 +23,7 @@
           </div>
         </div> 
         </div>
-        
+        <div class="below-input"></div>
       <div class="info-container">
         <p class="texas">TEXAS INSTRUMENTS</p>
         <p class="TI-108">TI-108</p>
@@ -35,51 +38,51 @@
       </div>
       <div class="buttons">
         <div class="grid-container">
-          <button class="grid-item"><span class="char">+/-</span></button>
-          <button class="grid-item"><span class="char">√</span></button>
-          <button class="grid-item"><span class="char">%</span></button>
-          <button class="grid-item" onclick="addToDisplay('/')"><span class="char">/</span></button>
+          <button class="grid-item"><span class="char symbol">+/-</span></button>
+          <button class="grid-item"><span class="char symbol">√</span></button>
+          <button class="grid-item"><span class="char symbol">%</span></button>
+          <button class="grid-item" onclick="addToDisplay('/')"><span class="char symbol">&divide</span></button>
           <button class="grid-item"><span class="char">MRC</span></button>
           <button class="grid-item"><span class="char">M-</span></button>
           <button class="grid-item"><span class="char">M+</span></button>
-          <button class="grid-item" onclick="addToDisplay('*')"><span class="char">*</span></button>
-          <button class="grid-item primary" onclick="addToDisplay('7')"><span class="char">7</span></button>
-          <button class="grid-item primary" onclick="addToDisplay('8')"><span class="char">8</span></button>
+          <button class="grid-item" onclick="addToDisplay('*')"><span class="char symbol">x</span></button>
+          <button class="grid-item primary" onclick="addToDisplay('7')"><span class="char stretch">7</span></button>
+          <button class="grid-item primary" onclick="addToDisplay('8')"><span class="char stretch">8</span></button>
           <button class="grid-item primary" onclick="addToDisplay('9')">
-            <span class="char">9</span>
+            <span class="char stretch">9</span>
           </button>
-          <button class="grid-item primary" onclick="addToDisplay('-')">
-            <span class="char">-</span>
+          <button class="grid-item" onclick="addToDisplay('-')">
+            <span class="char symbol">-</span>
           </button>
 
           <button class="grid-item primary" onclick="addToDisplay('4')">
-            <span class="char">4</span>
+            <span class="char stretch">4</span>
           </button>
           <button class="grid-item primary" onclick="addToDisplay('5')">
-            <span class="char">5</span>
+            <span class="char stretch">5</span>
           </button>
           <button class="grid-item primary" onclick="addToDisplay('6')">
-            <span class="char">6</span>
+            <span class="char stretch">6</span>
           </button>
-          <button class="grid-item" onclick="addToDisplay('+')"><span class="char">+</span></button>
+          <button class="grid-item" onclick="addToDisplay('+')"><span class="char symbol">+</span></button>
 
           <button class="grid-item primary" onclick="addToDisplay('1')">
-            <span class="char">1</span>
+            <span class="char stretch">1</span>
           </button>
           <button class="grid-item primary" onclick="addToDisplay('2')">
-            <span class="char">2</span>
+            <span class="char stretch">2</span>
           </button>
           <button class="grid-item primary" onclick="addToDisplay('3')">
-            <span class="char">3</span>
+            <span class="char stretch">3</span>
           </button>
-          <button class="grid-item" id="equals" onclick="calculate()"><span class="char">=</span></button>
+          <button class="grid-item" id="equals" onclick="calculate()"><span class="char symbol">=</span></button>
 
           <button class="grid-item" onclick="clearDisplay()"><span class="char">ON/C</span></button>
           <button class="grid-item primary" onclick="addToDisplay('0')">
-            <span class="char">0</span>
+            <span class="char stretch">0</span>
           </button>
           <button class="grid-item primary" onclick="addToDisplay('.')">
-            <span class="char">.</span>
+            <span class="char stretch">.</span>
           </button>
         </div>
 
