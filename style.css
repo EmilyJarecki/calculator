@@ -1,13 +1,21 @@
+html {
+  width: auto !important;
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+  position:relative;
+}
+
 @font-face {
   font-family: 'Digital';
   src: url('fonts/digital.ttf') format('truetype');
 }
 
-
 body {
   display: flex;
   justify-content: center;
+  margin-top: 10vh;
 }
+
 .edges {
   width: 270px;
   height: 65px;
